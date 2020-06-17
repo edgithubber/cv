@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Contact Details</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <table>
+    <tr>
+      <td>Home Address:</td>
+      <td>Block 3478 Saint Hill St., East Area, 2348902</td>
+    </tr>
+    <tr>
+      <td>Contact No.:</td>
+      <td>28591238</td>
+    </tr>
+    <tr>
+      <td>Email Address:</td>
+      <td>xysdb@gmail.com</td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>Leave your contact details below:</h3>
+  <form action="mailto:edpondoc@yahoo.com" method="post" enctype="text/plain">
+    <label for="contactname">Your Name:</label>
+    <input type="text" id="contactname" name="contactname" value=""><br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" value=""><br>
+    <label for="birthdate">Birthdate:</label>
+    <input type="datetime" id="birthdate" name="birthdate" value="01/01/1980"><br>
+    <label for="chkboxWantToBeMyFriend">Do you want to be my friend?</label>
+    <input type="checkbox" id="chkboxWantToBeMyFriend" name="chkboxWantToBeMyFriend" value=""><br>
+    <label for="chkboxWantUploadPhoto">Do you want to upload your photo?</label>
+    <input type="checkbox" id="chkboxWantUploadPhoto" name="chkboxWantUploadPhoto" value="">
+    <label for="inputfile">Upload File</label>
+    <input type="file" id="inputfile" name="inputfile" value=""><br>
+    <label for="textMessage">Message</label><br>
+    <textarea name="textMessage" rows="8" cols="80"></textarea><br>
+    <input type="submit" name=""><br>
+  </form>
+</body>
+</html>
